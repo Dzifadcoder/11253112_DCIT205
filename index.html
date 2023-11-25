@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.">
-    <title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.">
+        <link rel="stylesheet" href="styles.css">
+        <title>
          UG | Department of Computer Science  
-     </title>
-    <link rel = "icon" href = "UG.png" type = "image/x-icon"> <!--MAKE A UG LOGO APPEAR IN TITLE-->
-</head>
+        </title>
+        <link rel = "icon" href = "UG.png" type = "image/x-icon"> <!--MAKE A UG LOGO APPEAR IN TITLE-->
+        <img alt class="bgimg" src="bgimg.jpeg">
+
+        <style>
+        .homepage,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+         .homepage, html {
+        height: 100%;
+        line-height: 1.8;
+         }
+
+        /* Full height image header */ 
+        .bgimg {
+         background-position: center;
+         background-size: cover;
+         min-height: 100%;
+         background-image:url(bgimg.jpeg)
+         }
+
+        .w3-bar .w3-button {
+        padding: 16px;
+         }
+        </style>
+    </head>
+
 
 <body class = "homepage">
     <header>
@@ -16,15 +40,6 @@
        </div>
     </header>
 
-     <!--Full height image header-->
-     <img alt class ="background" align="center" img src="bgimg.jpeg">
-    <style>
-        .background{
-          background-position: center;
-          background-size: cover;
-          min-height: 100%;
-        }
-     </style>
 
 <!-- Navbar (sit on top) -->
 <div class="ontop">
@@ -45,97 +60,117 @@
     <style>
         .navbar{
             float: right;
+        
         }
     </style>
 
 <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 <script>
-    <a href="javascript:void(0)" class="rightNavbar" onclick="ug_open()">
+    <a href="javascript:void(0)" class="pagelink right-hide-large-hide-medium" onclick="ug_open()">
         <i class="pageNames"></i>
     </a>
 </script>
 </div>
 </div>
 
-
-  
-  
-
-        <h1> COMPUTER SCIENCE DEPARTMENT </h1>
-    <style>
-     body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-
-     body, html {
-      height: 100%;
-      line-height: 1.8;
-    }
-    </style>   
-
-    <style> 
-    .homepage{
-        background-color: white;
-        color: black;
-    }
-     </style>
-     
-    <div class="container">
-        <nav class="table-of-contents">
-            <ul>
-                <li><a href="#section1">HOME</a></li>
-                <li><a href="#section2">ABOUT</a></li>
-                <li><a href="#section3"> COURSES</a></li>
-                <LI><a href="#section4">TUITION</a></LI>
-                <li><a href="#section5"> CATALOG</a></li>
-                <li><a href="#section6"> RESOURCES</a></li>
-                <li><a href="#section7"> EVENTS></a></li>
-                <li><a href="#section8"> STAFF PROFILES</a></li>
-                <li><a href="#section9"> ACHIEVEMENTS</a></li>
-                <li><a href="#section10"> CONTACT US</a></li>
-            </ul>
-        </nav>
+<!--ABOUT PAGE-->    
         <main>
-            <section id="section1">
-                <h2>HOME</h2>
-                <!-- Content for Section 1 goes here -->
-            </section>
-            <section id="section2">
-                <h2>ABOUT</h2>
-                <!-- Content for Section 2 goes here -->
-            </section>
-            <section id="section3">
-                <h2>COURSES</h2>
-                <!-- Content for Section 2 goes here -->
-            </section>
-            <section id="section4">
-                <h2>TUITION</h2>
-                <!-- Content for Section 2 goes here -->
-            </section>
-            <section id="section5">
-                <h2>CATALOG</h2>
-                <!-- Content for Section 2 goes here -->
-            </section>
-            <section id="section6">
-                <h2>RESOURCES</h2>
-                <!-- Content for Section 2 goes here -->
-            </section>
-            <section id="section7">
-                <h2>EVENTS</h2>
-                <!-- Content for Section 2 goes here -->
-            </section>
-            <section id="section8">
-                <h2>STAFF PROFILES</h2>
-                <!-- Content for Section 2 goes here -->
-            </section>
-            <section id="section9">
-                <h2>ACHIEVEMENTS</h2>
-                <!-- Content for Section 2 goes here -->
-            </section>
-            <section id="section10">
-                <h2>CONTACT US</h2>
-                <!-- Content for Section 2 goes here -->
-            </section>
+            <div class="dzi-container" style="padding: 128px;" id="about">
+             <h3 class="dzi-center">ABOUT</h3>
+             <p class="dzi-center">Why Choose Us?</p>
+              <div class = "dzi-row-padding" style="margin-top:64px">
+                <div class ="dzi-quarter">
+                    <i class="fa-desktop"></i>
+                    <p class="dzi-large">Important</p>
+                    <p>This is the Information Technology age and at its core is Computer Science. The study of computer science is therefore critical if society is to take full advantage of the benefits Information Technology has to offer and make rapid economic advances.
+                        Computer science involves the study and development of applications that allow for our everyday use of computers, the software systems that support these applications, and the means and methods used to produce both applications and systems that behave reliably, correctly and ethically.
+                        At the heart of Computer Science lies the skill of computer programming and employers who hire Computer Scientists expect adept programmers with knowledge of current techniques and tools and the ability to apply sound engineering principles to the development, construction and maintenance of computer programs.</p>
+                </div>
+                <div class="dzi-quarter">
+                    <i class="fa-heart"></i>
+                    <p class="dzi-large">Our Courses</p>
+                    <p>The range of courses available in the department and the skills acquired by students enable them to find employment in many diverse fields of the economy and prepare our graduates for the computing industry, working in a project team (or research and development team), and to enable the graduate to bring specialist skills to that team.</p>
+                </div>
+                <div class="dzi-quarter">
+                    <i class="fa-cog"></i>
+                    <p class="dzi-large">What we Offer</p>
+                    <p>The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.</p>
+                </div>
+              </div>        
+             </div>  
+
+
+
+<!--COURSES PAGE-->
+        <div class="dzi-container" style="padding:128px 16px" id="courses">
+        </h3 class="dzi-center">COURSES</h3>
+        <p class="dzi-center dzi-large">The Courses We Offer</p>
+        <div class="dzi-row-padding dzi-grayscale" style="margin-top:64px">
+            <div class="dzi-col l3 m6 dzi-margin-bottom">
+                <div class="dzi-card">
+                    <img alt style="width:100%" img src="shortcourses.png">
+                    <div class="dzi-container">
+                        <h3>Short Courses</h3>
+                        <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.</p>
+
+                    </div>
+                </div>
+            </div>
+         
+            <div class="dzi-col l3 m6 dzi-margin-bottom">
+                <div class="dzi-card">
+                    <img alt style="width:100%" img src="undergrad.png">
+                      <div class="dzi-container">
+                        <h3>Undergraduate Programmes</h3>
+                        <p>Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science Degree.</p>
+    
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="dzi-col l3 m6 dzi-margin-bottom">
+                <div class="dzi-card">
+                    <img alt style="width:100%" img src="masters.png">
+                      <div class="dzi-container">
+                        <h3>MPhil and Msc Programmes </h3>
+                        <p>Embrace world class graduate education with unique blending of cutting-edge research and industry experience.</p>
+    
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="dzi-col l3 m6 dzi-margin-bottom">
+                <div class="dzi-card">
+                    <img alt style="width:100%" img src="phd.jpg">
+                      <div class="dzi-container">
+                        <h3>PhD programmes</h3>
+                        <p>Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research. </p>
+    
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+<!--TUITION PAGE-->
+
+
+
+                
+                
+                
+
+                
+
+        
+
+
+
             
-            >
+           
         </main>
     </div>
     <footer>
