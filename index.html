@@ -11,11 +11,13 @@
 
 <body class = "homepage">
     <header>
-        <img alt class ="logo1"  width="50" height = "50" img src="UG.png">
+        <div class="logo">
+        <h1 align = "center"><img alt align="left" width="50" height = "50" img src="UG.png">DEPARTMENT OF COMPUTER SCIENCE</h1>  
+       </div>
     </header>
 
      <!--Full height image header-->
-     <img alt class ="background" img src="bgimg.jpeg">
+     <img alt class ="background" align="center" img src="bgimg.jpeg">
     <style>
         .background{
           background-position: center;
@@ -23,6 +25,40 @@
           min-height: 100%;
         }
      </style>
+
+<!-- Navbar (sit on top) -->
+<div class="ontop">
+<div class="navbar" id="myNavbar">
+    <a href="#home" class="homepagelink">HOME</a>
+    <!-- Right-sided navbar links -->
+    <div class="rightsidelinks">
+      <a href="#about" class="pagelink"><i class="about"></i> ABOUT</a>
+      <a href="#courses" class="pagelink"><i class="courses"></i>COURSES</a>
+      <a href="#tuition" class="pagelink"><i class="tuition"></i>TUITION</a>
+      <a href="#catalog" class="pagelink"><i class="catalog"></i> CATALOG</a>
+      <a href="#resources" class="pagelink"><i class="resources"></i>RESOURCES</a>
+      <a href="#events" class="pagelink"><i class="events"></i>EVENTS</a>
+      <a href="#staffprofiles" class="pagelink"><i class="staffprofiles"></i>STAFF PROFILES</a>
+      <a href="#achievments" class="pagelink"><i class="achievements"></i>ACHIEVEMENTS</a>
+      <a href="#contact" class="pagelink"><i class="contactus"></i>CONTACT US</a>
+    </div>
+    <style>
+        .navbar{
+            float: right;
+        }
+    </style>
+
+<!-- Hide right-floated links on small screens and replace them with a menu icon -->
+<script>
+    <a href="javascript:void(0)" class="rightNavbar" onclick="ug_open()">
+        <i class="pageNames"></i>
+    </a>
+</script>
+</div>
+</div>
+
+
+  
   
 
         <h1> COMPUTER SCIENCE DEPARTMENT </h1>
