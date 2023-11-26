@@ -1,0 +1,80 @@
+/*NAVBAR SECTION*/
+header{
+    display:flex;
+    align-items: center;
+    background-color: lightblue;
+    color: yellow;
+    padding:10px 0;
+}
+
+.logo{
+    display:inline-block;
+    margin-right:20px
+}
+
+nav{
+    flex-grow: 1;
+}
+
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding: 2px;;
+}
+
+nav li{
+    display:inline-block;
+}
+
+nav li a{
+    display:block;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+
+
+
+/*
+.dzi-top2{
+background: white;
+
+}
+.bgimg{
+    display:ruby-base-container;
+    container: grayscale;
+}
+
+.header{
+    display:ruby-text-container;
+    
+}
+
+.firstdiv{
+    display:left;
+    color: blue;
+    padding:48px;
+}
+
+.firstspan{
+    size: large;
+
+}
+
+.secondspan{
+    size:large;
+}
+
+.firstP{
+    color:blue;
+    padding: large;
+    margin-top: 0%;
+    opacity: 0.7
+    hover;
+}
+*/
+

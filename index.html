@@ -8,9 +8,8 @@
          UG | Department of Computer Science  
         </title>
         <link rel = "icon" href = "UG.png" type = "image/x-icon"> <!--MAKE A UG LOGO APPEAR IN TITLE-->
-        <img alt class="bgimg" src="bgimg.jpeg">
 
-        <style>
+       <!-- <style>
         .homepage,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
          .homepage, html {
@@ -29,28 +28,39 @@
         .dzi-bar .dzi-button {
         padding: 16px;
          }
-        </style>
+        </style> -->
     </head>
 
 <main>
 <body class = "homepage">
 
 <!-- Navbar (sit on top) -->
-<div class="dzi-top">
-<div class="dzi-bar dzi-white dzi-card" id="myNavbar">
-    <a href="#home" class="homepagelink">HOME</a>
-    <!-- Right-sided navbar links -->
-    <div class="dzi-right dzi-hide-small">
-      <a href="#about" class="pagelink"><i class="aboutpic"></i> ABOUT</a>
-      <a href="#courses" class="pagelink"><i class="coursespic"></i>COURSES</a>
-      <a href="#tuition" class="pagelink"><i class="tuitionpic"></i>TUITION</a>
-      <a href="#home" class="pagelink"><i class="catalogpic"></i> CATALOG</a>
-      <a href="#resources" class="pagelink"><i class="resourcespic"></i>RESOURCES</a>
-      <a href="#events" class="pagelink"><i class="eventspic"></i>EVENTS</a>
-      <a href="#staffprofiles" class="pagelink"><i class="staffprofilespic"></i>STAFF PROFILES</a>
-      <a href="#achievments" class="pagelink"><i class="achievementspic"></i>ACHIEVEMENTS</a>
-      <a href="#contact" class="pagelink"><i class="contactuspic"></i>CONTACT US</a>
+<header id="home">
+    <div class="logo">
+        <img src=logo.png alt="company logo" width="270" height="90">
     </div>
+<nav>
+<div class="dzi-top">
+<div class="dzi-top2" id="myNavbar">
+    <!-- Right-sided navbar links -->
+    <div class="dzinav">
+        <ul>
+            <li><a href="#home" class="homepagelink">HOME</a></li>
+            <li> <a href="#about" class="pagelink"> ABOUT</a></li>
+            <li><a href="#courses" class="pagelink">COURSES</a></li>
+            <li><a href="#tuition" class="pagelink">TUITION</a></li>
+            <li><a href="#home" class="pagelink"> CATALOG</a></li>
+            <li><a href="#resources" class="pagelink">RESOURCES</a></li>
+            <li><a href="#events" class="pagelink">EVENTS</a></li>
+            <li><a href="#staffprofiles" class="pagelink">STAFF PROFILES</a></li>
+            <li><a href="#achievements" class="pagelink">ACHIEVEMENTS</a></li>
+            <li><a href="#contact" class="pagelink">CONTACT US</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+</nav>
+</header>
 
 <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 <script>
@@ -61,13 +71,15 @@
 </div>
 </div>
 
+
 <!--this is the header-->
-<header class="bgimg-1 dzi-display-container dzi-grayscale-min" id="home">
-    <div class="dzi-display-left dzi-text-white" style="padding:48px">
-        <span class="dzi-jumbo dzi-hide-small">Your Gateway To World-Class Comuter Science Education</span></br>
-         <span class="dzi-large">Enroll Now</span>
-        <p><a href="#home" class="dzi-button dzi-white dzi-padding-large dzi-large dzi-margin-top dzi-opacity dzi-hover-opacity-off">Learn more and Start Today!</a></p>
-        <h1 align = "center"><img alt align="left" width="50" height = "50" img src="UG.png">DEPARTMENT OF COMPUTER SCIENCE</h1>  <!--figure out what to do with this line, future me--->
+<img alt class="bgimg" src="bgimg.jpeg">
+<header class="header">
+    <div class="firstdiv" style="padding:48px">
+        <span class="firstspan">Your Gateway To World-Class Computer Science Education</span></br>
+         <span class="secondspan">Enroll Now</span>
+        <p><a href="#home" class="firstP">Learn more and Start Today!</a></p>
+        
    </div>
 </header>
 
@@ -155,7 +167,7 @@
 
 
 <!--TUITION PAGE-->
-<div class="dzi-container dzi-light-grey" style="padding:128px 16px">
+<div class="dzi-container dzi-light-grey" style="padding:128px 16px" ID="tuition">
   <div class="dzi-row-padding">
     <div class="dzi-col m6">
       <h3>TUITION</h3>
@@ -174,7 +186,7 @@ in the department. It should be accessed  through a link on the "COURSES PAGE" t
 when pressed, the catalog page opens and a briefing is given to the user about the various courses and what they entail-->
 
 <!--RESOURCES PAGE-->
-<div class="dzi-container dzi-light-pink" style="padding:128px 16px">
+<div class="dzi-container dzi-light-pink" style="padding:128px 16px" id="resources">
   <div class="dzi-rowpadding">
     <div class="dzi-col m6">
         <h3>Our Alumni</h3>
@@ -192,7 +204,7 @@ when pressed, the catalog page opens and a briefing is given to the user about t
 </div>
 
 <!--EVENTS PAGE-->
-<div class="dzi-container dzi-light-purple" style="padding:128px 16px">
+<div class="dzi-container dzi-light-purple" style="padding:128px 16px" id="events">
     <div class="dzi-row-padding">
         <div class="dzi-col m6">
             <h3>EVENTS</h3>
@@ -207,7 +219,7 @@ when pressed, the catalog page opens and a briefing is given to the user about t
 </div>
 
 <!--STAFF PROFILES PAGE-->
-<div class="dzi-container" style="padding:128px 16px" id="staff">
+<div class="dzi-container" style="padding:128px 16px" id="staffprofiles">
   <h3 class="dzi-center">THE TEAM</h3>
   <p class="dzi-center dzi-large">The ones who runs this department</p>
   <div class="dzi-row-padding dzi-grayscale" style="margin-top:64px">
@@ -255,7 +267,7 @@ when pressed, the catalog page opens and a briefing is given to the user about t
 </div>
 
 <!--ACHIEVEMENTS PAGE-->
-<div class="dzi-container dzi-row dzi-center dzi-dark-grey dzi-padding-64">
+<div class="dzi-container dzi-row dzi-center dzi-dark-grey dzi-padding-64" id="achievements">
     <div class="dzi-quarter">
         <span class="dzi-xxlarge">14+</span>
         <br>Partners
@@ -295,10 +307,9 @@ when pressed, the catalog page opens and a briefing is given to the user about t
         </p> 
       </form>
       <!--image of location-->
-      <img src="location.jpg" class="dzi-image dzi-grayscale" style="width:100%;margin-top:48px;">
-      <p>Find us on Google Maps
+      <img alt src="location.jpg" class="dzi-image dzi-grayscale" style="width:100%;margin-top:48px;">
       <br>
-      <a href="https://maps.app.goo.gl/YjTu4MVNVRiovjsH9"></a></p>
+      <a href="https://maps.app.goo.gl/YjTu4MVNVRiovjsH9">Find us on google maps</a>
     </div>
 </div>
         
@@ -311,7 +322,7 @@ when pressed, the catalog page opens and a briefing is given to the user about t
         <i class="fa fa-twitter dzi-hover-opacity"></i>
     </div>
     </footer>
-    
+
     <style>
         footer{
             background-color: black;
