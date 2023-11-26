@@ -23,76 +23,75 @@
          background-position: center;
          background-size: cover;
          min-height: 100%;
-         background-image:url(bgimg.jpeg)
+         background-image:url(bgimg.jpeg);
          }
 
-        .w3-bar .w3-button {
+        .dzi-bar .dzi-button {
         padding: 16px;
          }
         </style>
     </head>
 
-
+<main>
 <body class = "homepage">
-    <header>
-        <div class="logo">
-        <h1 align = "center"><img alt align="left" width="50" height = "50" img src="UG.png">DEPARTMENT OF COMPUTER SCIENCE</h1>  
-       </div>
-    </header>
-
 
 <!-- Navbar (sit on top) -->
-<div class="ontop">
-<div class="navbar" id="myNavbar">
+<div class="dzi-top">
+<div class="dzi-bar dzi-white dzi-card" id="myNavbar">
     <a href="#home" class="homepagelink">HOME</a>
     <!-- Right-sided navbar links -->
-    <div class="rightsidelinks">
-      <a href="#about" class="pagelink"><i class="about"></i> ABOUT</a>
-      <a href="#courses" class="pagelink"><i class="courses"></i>COURSES</a>
-      <a href="#tuition" class="pagelink"><i class="tuition"></i>TUITION</a>
-      <a href="#catalog" class="pagelink"><i class="catalog"></i> CATALOG</a>
-      <a href="#resources" class="pagelink"><i class="resources"></i>RESOURCES</a>
-      <a href="#events" class="pagelink"><i class="events"></i>EVENTS</a>
-      <a href="#staffprofiles" class="pagelink"><i class="staffprofiles"></i>STAFF PROFILES</a>
-      <a href="#achievments" class="pagelink"><i class="achievements"></i>ACHIEVEMENTS</a>
-      <a href="#contact" class="pagelink"><i class="contactus"></i>CONTACT US</a>
+    <div class="dzi-right dzi-hide-small">
+      <a href="#about" class="pagelink"><i class="aboutpic"></i> ABOUT</a>
+      <a href="#courses" class="pagelink"><i class="coursespic"></i>COURSES</a>
+      <a href="#tuition" class="pagelink"><i class="tuitionpic"></i>TUITION</a>
+      <a href="#home" class="pagelink"><i class="catalogpic"></i> CATALOG</a>
+      <a href="#resources" class="pagelink"><i class="resourcespic"></i>RESOURCES</a>
+      <a href="#events" class="pagelink"><i class="eventspic"></i>EVENTS</a>
+      <a href="#staffprofiles" class="pagelink"><i class="staffprofilespic"></i>STAFF PROFILES</a>
+      <a href="#achievments" class="pagelink"><i class="achievementspic"></i>ACHIEVEMENTS</a>
+      <a href="#contact" class="pagelink"><i class="contactuspic"></i>CONTACT US</a>
     </div>
-    <style>
-        .navbar{
-            float: right;
-        
-        }
-    </style>
 
 <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 <script>
-    <a href="javascript:void(0)" class="pagelink right-hide-large-hide-medium" onclick="ug_open()">
-        <i class="pageNames"></i>
+    <a href="javascript:void(0)" class="pagelink dzi-right dzi-hide-large dzi-hide-medium" onclick="dzi_open()">
+        <i class="pagelink-bars"></i>
     </a>
 </script>
 </div>
 </div>
 
+<!--this is the header-->
+<header class="bgimg-1 dzi-display-container dzi-grayscale-min" id="home">
+    <div class="dzi-display-left dzi-text-white" style="padding:48px">
+        <span class="dzi-jumbo dzi-hide-small">Your Gateway To World-Class Comuter Science Education</span></br>
+         <span class="dzi-large">Enroll Now</span>
+        <p><a href="#home" class="dzi-button dzi-white dzi-padding-large dzi-large dzi-margin-top dzi-opacity dzi-hover-opacity-off">Learn more and Start Today!</a></p>
+        <h1 align = "center"><img alt align="left" width="50" height = "50" img src="UG.png">DEPARTMENT OF COMPUTER SCIENCE</h1>  <!--figure out what to do with this line, future me--->
+   </div>
+</header>
+
+
 <!--ABOUT PAGE-->    
-        <main>
+        
             <div class="dzi-container" style="padding: 128px;" id="about">
              <h3 class="dzi-center">ABOUT</h3>
-             <p class="dzi-center">Why Choose Us?</p>
-              <div class = "dzi-row-padding" style="margin-top:64px">
+             <p class="dzi-center dzi-large">Why Choose Us?</p>
+              <div class = "dzi-row-padding dzi-center" style="margin-top:64px">
                 <div class ="dzi-quarter">
-                    <i class="fa-desktop"></i>
+                    <i class="fa-desktop dzi-margin-bottom dzi-jumbo dzi-center"></i>
                     <p class="dzi-large">Important</p>
                     <p>This is the Information Technology age and at its core is Computer Science. The study of computer science is therefore critical if society is to take full advantage of the benefits Information Technology has to offer and make rapid economic advances.
                         Computer science involves the study and development of applications that allow for our everyday use of computers, the software systems that support these applications, and the means and methods used to produce both applications and systems that behave reliably, correctly and ethically.
                         At the heart of Computer Science lies the skill of computer programming and employers who hire Computer Scientists expect adept programmers with knowledge of current techniques and tools and the ability to apply sound engineering principles to the development, construction and maintenance of computer programs.</p>
                 </div>
                 <div class="dzi-quarter">
-                    <i class="fa-heart"></i>
+                    <i class="fa-heart dzi-margin-bottom dzi-jumbo"></i>
                     <p class="dzi-large">Our Courses</p>
                     <p>The range of courses available in the department and the skills acquired by students enable them to find employment in many diverse fields of the economy and prepare our graduates for the computing industry, working in a project team (or research and development team), and to enable the graduate to bring specialist skills to that team.</p>
                 </div>
                 <div class="dzi-quarter">
-                    <i class="fa-cog"></i>
+                    <i class="fa-cog dzi-margin-bottom dzi-jumbo"></i>
                     <p class="dzi-large">What we Offer</p>
                     <p>The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.</p>
                 </div>
@@ -156,6 +155,59 @@
 
 
 <!--TUITION PAGE-->
+<div class="dzi-container dzi-light-grey" style="padding:128px 16px">
+  <div class="dzi-row-padding">
+    <div class="dzi-col m6">
+      <h3>TUITION</h3>
+      <p>The Department of Computer Science at the University of Ghana offers affordable tuition and a range of financial options to help you pursue your education. Contact us to learn more.</p>
+      <p><a href="#contact" class="dzi-button dzi-black"><i class="fa fa-th"></i> Contact Us</a></p><!--make this a button-->
+    </div>
+    <div class="dzi-col m6">
+      <img alt class="dzi-image dzi-round-large" src="tuition.jpg">
+    </div>
+  </div>
+</div>
+
+<!--CATALOG PAGE-->
+<!--this page should contain more info about the four programme choices
+in the department. It should be accessed  through a link on the "COURSES PAGE" thorugh a buttton that says "Learn more" Then 
+when pressed, the catalog page opens and a briefing is given to the user about the various courses and what they entail-->
+
+<!--RESOURCES PAGE-->
+<div class="dzi-container dzi-light-pink" style="padding:128px 16px">
+  <div class="dzi-rowpadding">
+    <div class="dzi-col m6">
+        <h3>Our Alumni</h3>
+        <p>Our alumni have gone on to successful careers in software development, data analysis, artificial intelligence, and cybersecurity. They have worked for top companies and organizations around the world, making a difference in their fields and communities.</p>
+    </div>
+    <div class="dzi-col m6">
+        <h3>Frequently Asked Questions (FAQ)</h3>
+        <p>How do I sign up for admission?</p>
+        <p>Are any certifications or prerequisites required to enroll in this course?</p>
+        <p>What is the tuition cost for this course?</p>
+        <p>Are there any scholarships or financial aid available for this course?</p>
+        
+    </div>
+  </div>
+</div>
+
+<!--EVENTS PAGE-->
+<div class="dzi-container dzi-light-purple" style="padding:128px 16px">
+    <div class="dzi-row-padding">
+        <div class="dzi-col m6">
+            <h3>EVENTS</h3>
+            <P>In our department, we prioritize skills-learning and Networking above all. Occasionally, we assemble a team of highly skilled and experienced professionals to deliver training program and share their knowledge and expertise with our team.
+                 Click the link below to learn about our upcoming events, anytime!</P>
+            <p><a href="#contact" class="dzi-button dzi-blue">Upcoming Events</a></p>    
+        </div>
+        <div class="dzi-col m6">
+            <img alt class="dzi-image dzi-round-large" src="events.png" width="700" height="394">
+        </div>
+    </div>
+</div>
+
+
+
 
 
 
@@ -171,7 +223,7 @@
 
             
            
-        </main>
+</main>
     </div>
     <footer>
         <p>&copy; 2023 Department of Computer Science, University of Ghana. All rights reserved.</p>
