@@ -3,8 +3,8 @@ header{
     display:flex;
     align-items: center;
     background-color: lightblue;
-    color: yellow;
-    padding:10px 0;
+    color: rgb(234, 234, 33);
+    padding:10px;
 }
 
 .logo{
@@ -19,7 +19,7 @@ nav{
 nav ul{
     list-style-type:none;
     margin:0;
-    padding: 2px;;
+    padding: 2px;
 }
 
 nav li{
@@ -33,48 +33,115 @@ nav li a{
 }
 
 nav a:hover{
-    background-color: black;
+    color: red;
 }
 
-
-
-
-/*
-.dzi-top2{
-background: white;
-
+/*HOMEPAGE STYLES*/
+.container{
+    position: relative;
+    width:100%;
+    height: 500px;
+    overflow: hidden;
 }
+
 .bgimg{
-    display:ruby-base-container;
-    container: grayscale;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    filter:brightness(0.5);
+    padding: 10px
 }
 
-.header{
-    display:ruby-text-container;
-    
+.text-overlay{
+    position:absolute;
+    top:50%;
+    transform:translate(-50%, -50%);
+    color:white;
+    font: size 100px;
+    text-align:center;
 }
 
-.firstdiv{
-    display:left;
-    color: blue;
-    padding:48px;
+button{
+    background-color:black;
+    color:white;
+    border:none;
+    border-radius: 18px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    font-family: 'Lucida Sans';
+
+}
+button:hover{
+    opacity: 0.7;
 }
 
-.firstspan{
-    size: large;
-
+/*ABOUT STYLES*/
+.lala{
+    background-color:yellow;
 }
 
-.secondspan{
-    size:large;
+.icon-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    width:400px;
+    margin:0 auto;
 }
 
-.firstP{
-    color:blue;
-    padding: large;
-    margin-top: 0%;
-    opacity: 0.7
-    hover;
+.icon-item{
+    margin-bottom:20px;
+    text-align:center;
 }
-*/
 
+.icon-item img{
+    width:100px;
+    height:100px;
+}
+
+.round1{
+    border-radius: 50%;
+}
+.round2{
+    border-radius: 50%;
+}
+.round3{
+    border-radius: 50%;
+}
+
+/*courses styles*/
+.image-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin:0 auto;
+    padding:60px;
+}
+
+.image-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:200px;
+    margin:0 10px;
+    padding: 60px;
+}
+.image-item img{
+    width:50%;
+    height:auto;
+    padding: 60px;
+}
+
+.image-item p{
+    text-align: center;
+    margin-top:10px;
+    padding: 60px
+}
