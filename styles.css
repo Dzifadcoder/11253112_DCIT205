@@ -159,7 +159,6 @@ button:hover{
     align-content: right;
 }
 
-/*catalog page styles*/
 
 /*resources page styles*/
 .grid-container{
@@ -201,12 +200,12 @@ button:hover{
 }
 
 .card-details h3{
-    font-size: 20px;
+    font-size: 26px;
     margin-bottom: 10px;
 }
 
 .card-details p{
-    font-size:14px;
+    font-size:20px;
     margin-bottom: 5px;
 }
 
@@ -217,13 +216,120 @@ button:hover{
     padding: 64px;
     justify-content: center;
     font-size: xx-large;
-    display: inline-block;
-    flex-direction:row ;
     color: white;
 }
 
-.dzi-quarter{}
+.dzi-quarter{
+    padding: 50px;
+    font-size: xx-large;
+    display: inline-block;
+    margin: 20px;
+}
+
+
+
+
+/*last pic*/
+.linkcontainer{
+    background-color:black ;
+    height:30px;
+}
+
+.linkcontainer a{
+    color:white;
+   font-size:larger 
+}
+
+.lastp{
+    font-size: xx-large;
+}
+
+
+.lastpic{
+    width: 100%;
+    height: 70%;
+    margin:auto;
+}
 
 
 
 /*contact page styles*/
+.finally{
+    background-color: rgba(248, 179, 3, 0.905);
+    font-family: sans-serif;
+    height: 600px;
+    padding:30px;
+}
+
+.lastcontainer{
+    width:80;
+    margin:0 auto;
+    padding:20px;
+
+}
+
+.mylogo{
+    display:inline-block;
+    margin-right:20px
+}
+
+.mylogo img{
+    width: 290px;
+    height:100px
+}
+
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding:20px;
+    margin : 20px;
+    align-items: center;
+}
+
+.lastcolumn{
+    margin: 40px;
+}
+
+.lastcolumns{
+    width:25%;
+    padding:10px;
+    border: 1px solid #ccc;
+    margin-bottom:10px;
+
+}
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gmail-link {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: blue;
+}
+
+
