@@ -7,7 +7,7 @@ This is the latest update of the Computer Science Department website of the Univ
 ## PURPOSE
 With a focus on accessibility and engagement, our redesigned website delivers enhanced information, attracts new minds to the world of computer science, expands our professional connections, and promotes a culture of continuous learning.
 
-##How To Clone and Set Up The Website
+## How To Clone and Set Up The Website
 Forking a Repository: 
 Go to GitHub on the web browser.
 Login to your account, otherwise, sign in by creating a new account.
