@@ -52,23 +52,23 @@ ID : 11253112
 
 
 ## SCREENSHOTS
-<img src="screen1.png">
-<img src="screen2.png">
-<img src="screen3.png">
-<img src="screen4.png">
-<img src="screen5.png">
-<img src="screen6.png">
-<img src="screen7.png">
-<img src="screen8.png">
-<img src="screen9.png">
-<img src="screen10.png">
-<img src="screen11.png">
+<img src="Screen1.png">
+<img src="Screen2.png">
+<img src="Screen3.png">
+<img src="Screen4.png">
+<img src="Screen5.png">
+<img src="Screen6.png">
+<img src="Screen7.png">
+<img src="Screen8.png">
+<img src="Screen9.png">
+<img src="Screen10.png">
+<img src="Screen11.png">
 
 
 ## WHAT I HAVE LEARNED FROM THE PROJECT
 I have learnt how to create a website, using HTML and CSS.
-I have also learnt to fork a repository and pull a request
-style HTML elements with CSS
+I have also learnt to fork a repository and pull a request as well as learnt how
+style HTML elements with CSS.
 
 
 
