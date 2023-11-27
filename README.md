@@ -1,11 +1,14 @@
 # DCIT_205_IA
-#INTRODUCTION
+
+## DZIFA ESI DOTSE  11253112
+## INTRODUCTION
 This is the latest update of the Computer Science Department website of the University of Ghana. Through a collaborative effort, our team has meticulously refined the website, introducing fresh features, informative content, and an aesthetically pleasing interface. It includes new features like an ahievements page; to showcase our pride in this department, a Staff-Profile page; which mentions a few of our meticulous staff, and a Tuition page; to provide information on the expense of our fees.
-#PURPOSE
+
+## PURPOSE
 With a focus on accessibility and engagement, our redesigned website delivers enhanced information, attracts new minds to the world of computer science, expands our professional connections, and promotes a culture of continuous learning.
 #How To Clone and Set Up The Website
 
-Forking a Repository: 
+## Forking a Repository: 
 Go to GitHub on the web browser.
 Login to your account, otherwise, sign in by creating a new account.
 Navigate to the repository you wish to Fork. You can do this by searching up the name of the Repository.
@@ -43,15 +46,34 @@ Provide Details: Fill in a title and decription for your pull request, explainin
 
 The process is complete. 
 
-#STUDENT INFORMATION
+## STUDENT INFORMATION
 Name : Dzifa Esi Dotse
 ID : 11253112
 
 
-#SCREENSHOTS
-#WHAT I HAVE LEARNED FROM THE PROJECT
+## SCREENSHOTS
+<img src="screen1.png">
+<img src="screen2.png">
+<img src="screen3.png">
+<img src="screen4.png">
+<img src="screen5.png">
+<img src="screen6.png">
+<img src="screen7.png">
+<img src="screen8.png">
+<img src="screen9.png">
+<img src="screen10.png">
+<img src="screen11.png">
+
+
+## WHAT I HAVE LEARNED FROM THE PROJECT
 I have learnt how to create a website, using HTML and CSS.
-I have also learnt to 
+I have also learnt to fork a repository and pull a request
+style HTML elements with CSS
+
+
+
+
+
 
 
 
